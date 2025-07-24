@@ -1,4 +1,4 @@
-name: Lint Workflow
+name: CI Pipeline
 
 on:
   push:
@@ -25,3 +25,9 @@ jobs:
 
       - name: Check style
         run: npm run eslint
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Run tests
+        run: npm test
