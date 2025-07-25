@@ -18,6 +18,7 @@ After creading build_step.sh I ran the following on git bash
 git update-index --chmod=+x build_step.sh
 git commit -am "Make build_step.sh executable"
 git push
+(aLso changed the file from CRLF To LF just on VSCODE)
 
 Deployed on:
 https://full-stack-open-pokedex-clra.onrender.com
