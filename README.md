@@ -2,8 +2,6 @@
 
 This repository is used for the CI/CD module of the Full stack open course
 
-Fork the repository to complete course exercises
-
 ## Commands
 
 Start by running `npm install` inside the project folder
@@ -18,6 +16,7 @@ After creading build_step.sh I ran the following on git bash
 git update-index --chmod=+x build_step.sh
 git commit -am "Make build_step.sh executable"
 git push
+(aLso changed the file from CRLF To LF just on VSCODE)
 
 Deployed on:
 https://full-stack-open-pokedex-clra.onrender.com
