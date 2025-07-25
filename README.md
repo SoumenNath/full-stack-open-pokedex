@@ -13,3 +13,11 @@ Start by running `npm install` inside the project folder
 `npm run eslint` to run eslint
 `npm run build` to make a production build
 `npm run start-prod` to run your production build
+
+After creading build_step.sh I ran the following on git bash
+git update-index --chmod=+x build_step.sh
+git commit -am "Make build_step.sh executable"
+git push
+
+Deployed on:
+https://full-stack-open-pokedex-clra.onrender.com
